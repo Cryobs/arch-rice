@@ -1,0 +1,51 @@
+
+
+$red: #fb4934;
+$bg: #282828;
+$bg2: #3c3836;
+$fg: #ebdbb2;
+
+
+
+window {
+    margin: 5px;
+    border: 2px solid $red;
+    background-color: $red;
+}
+
+#input {
+    margin: 5px;
+    border: 2px solid $bg2;
+    background-color: $bg2;
+    color: $fg;
+}
+
+#input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#inner-box {
+    margin: 5px;
+    border: 2px solid $bg2;
+    background-color: $bg2;
+}
+
+#outer-box {
+    margin: 5px;
+    border: 2px solid $bg;
+    background-color: $bg;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#text {
+    margin: 5px;
+    color: $fg;
+}
+
+#entry:selected {
+  background-color: $red;
+} 
