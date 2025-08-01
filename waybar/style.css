@@ -1,0 +1,45 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Symbols Nerd Font", monospace;
+    font-size: 13px;
+    
+}
+
+window#waybar {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+
+#cava {
+
+    font-family: Arial;
+}
+
+
+
+#workspaces button:hover {
+    background-color: red;
+    border: 0;
+}
+
+#workspaces button {
+    padding: 0 0;
+    color: #ebdbb2;
+}
+
+.modules-right {
+    margin-right: 15px;
+}
+
+.modules-right * {
+    margin: 0 5px;
+}
+
+.modules-center * {
+    margin: 0 5px;
+}
+
+.modules-left {
+    margin-left: 20px;
+}

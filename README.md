@@ -30,7 +30,7 @@ git clone https://github.com/Cryobs/arch-rice.git .
 ```
 3. Install dependencies
 ```bash
-sudo pacman install kitty zsh polybar wofi nvim neofetch cava playerctl networkmanager
+sudo pacman install kitty zsh waybar wofi nvim neofetch cava playerctl networkmanager
 ```
 (or use your package manager)
 

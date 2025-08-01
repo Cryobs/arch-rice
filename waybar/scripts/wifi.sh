@@ -28,11 +28,11 @@ fi
 # Вывод
 if [[ -f "$STATE_FILE" ]]; then
     if [[ -n "$ESSID" ]]; then
-        echo "$ICON $ESSID"
+        echo "[  $ICON $ESSID ]"
     else
-        echo "$ICON (off)"
+        echo "[  $ICON (off) ]"
     fi
 else
-    echo "$ICON"
+    echo "[  $ICON  ]"
 fi
 
